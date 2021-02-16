@@ -1,0 +1,9 @@
+version: "3"
+services:
+  git:
+    build: git
+    command: /usr/local/sbin/git-compile.sh
+    volumes:
+     - ./data:/host
+    environment:
+     - GIT_VER=2.30.1
