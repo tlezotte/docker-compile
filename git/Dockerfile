@@ -5,6 +5,5 @@ ENV container=docker
 ADD ./compile.sh /usr/local/sbin
 
 # Install requirements.
-RUN yum makecache fast \
- && yum -y install epel-release wget gcc make tk-devel zlib-devel \
+RUN yum -y install epel-release wget gcc make tk-devel zlib-devel \
  && yum clean all

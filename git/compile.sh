@@ -1,9 +1,10 @@
 #!/bin/bash
-#
-# https://docs.docker.com/engine/userguide/eng-image/dockerfile_best-practices/#/entrypoint
-#
 
 #set -e
+
+# environment from docker-compose 
+# - GIT_VER
+
 
 # compile git if version set
 wget https://mirrors.edge.kernel.org/pub/software/scm/git/git-${GIT_VER}.tar.gz 
