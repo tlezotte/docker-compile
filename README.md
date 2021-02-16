@@ -11,7 +11,7 @@ What does it do?
 
 ### Setup git version
 
-edit GIT_VER=2.30.1 int `docker-composer.yml`
+edit GIT_VER in `docker-composer.yml`
 
 ## Run
 
