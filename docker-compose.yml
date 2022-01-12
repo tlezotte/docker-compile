@@ -6,4 +6,4 @@ services:
     volumes:
      - ./data:/host
     environment:
-     - GIT_VER=2.30.1
+     - GIT_VER=2.34.1
